@@ -1,0 +1,16 @@
+print("Size of Pond")
+print("------------")
+width = input("Enter pond width(meters): ")
+width = float(width)
+length = float(input("Enter pon length(meter): "))
+depth = float(input("Enter pon depth(meter): "))
+area = width * length
+volume = area * depth
+print(volume, "cubic meters of water")
+print("\n")
+
+print("Filling the pond")
+print("----------------")
+second = float(input("Enter liters per second: "))
+hour = second * 3600
+print(hour, "liters per hour")
